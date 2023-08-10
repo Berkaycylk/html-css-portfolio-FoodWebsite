@@ -1,0 +1,194 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: 'Poppins', sans-serif;
+   height: 100vh;
+   color: white;
+ }
+
+ a {
+   color: white;
+   text-decoration: none;
+ }
+
+
+
+ .container {
+   padding-left: 12%;
+   padding-right: 12%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assest/pexels-david-bartus-963278.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+ }
+
+ .navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 12%;
+ }
+
+ .navbar ul {
+   list-style: none;
+   display: flex;
+   column-gap: 25px;
+ }
+
+ .navbar ul a {
+   color: white;
+   text-decoration: none;
+   transition: ease-out .8s color;
+ }
+
+ .navbar ul a:hover {
+   color: goldenrod;
+ }
+
+ /* navbar-end */
+ .col h1 {
+   font-size: 75px;
+   font-weight: bold;
+ }
+
+ .row {
+   display: flex;
+   column-gap: 10px;
+   align-items: center;
+   height: 88%;
+   justify-content: center;
+
+
+ }
+
+ .col {
+   flex-basis: 50%;
+ }
+
+ .btn {
+   margin-top: 30px;
+   font-size: 16px;
+   background-color: #007bbf;
+   color: white;
+   padding: 12px 24px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   border-radius: 30px;
+ }
+
+ .card-head p {
+   font-size: 10px;
+ }
+
+ .col p {
+   font-size: 15px;
+   font-weight: 400;
+
+ }
+
+ .cards {
+   max-width: 500px;
+
+   margin: auto;
+ }
+
+ .card {
+   width: 200px;
+   height: 230px;
+   background-image: url(./assest/indir.jpg);
+   background-position: center;
+   background-size: cover;
+   display: inline-block;
+   border-radius: 40px;
+   position: relative;
+   cursor: pointer;
+   transition: .8 ease-out all;
+   margin: 12px;
+
+
+ }
+
+ .card:hover {
+   transform: scale(1.2);
+ }
+
+ .card-head {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 2px;
+   border-radius: 20px;
+ }
+
+ .card-bottom .btn {
+   position: absolute;
+   bottom: 4px;
+   left: 6px;
+
+   font-size: 15px;
+
+ }
+
+ .card-2 {
+   background-image: url(./assest/indir\ \(1\).jpg);
+ }
+
+ .card-3 {
+   background-image: url(./assest/csm_kikkoman-rezepte-content-vegetarian-maki-sushi_-1080x720_c9226459bf.jpg);
+ }
+
+ .card-4 {
+   background-image: url(./assest/evde-pizza-tarifi-nasil-yapilir-12-600x400.jpg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .navbar a img {
+   height: 70px;
+   width: 70px;
+   border-radius: 40px;
+ }
